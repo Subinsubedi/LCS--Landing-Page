@@ -15,7 +15,12 @@ h1{
     color: yellow;
 }
 
-
+h3{
+  text-align: center;
+    font-family: 'Vollkorn', serif;
+    
+    color: yellow;
+}
 
 .topnav a {
     color: purple;
@@ -26,7 +31,7 @@ h1{
     font-size: 30px;
   }
 .topnav a:hover {
-    background-color: purple;
+    background-color: lightgray;
     
     
   }
@@ -38,6 +43,21 @@ h1{
 
   }
 
+.content{
+    max-width: 500px;
+    margin: auto;
+    
+  }
+
+
+  .content h1{
+    font-size: 30px;
+  }
+
+  .content p{
+    font-family: 'Vollkorn', sans-serif;
+
+  }
 /* <!--- backgorund ---> */
 html {
     height:100%;
@@ -47,6 +67,10 @@ html {
     margin:0;
   }
   
+  .content img{
+    width: 100%;
+    
+  }
   .bg {
     animation:slide 3s ease-in-out infinite alternate;
     background-image: linear-gradient(-60deg, #191970
